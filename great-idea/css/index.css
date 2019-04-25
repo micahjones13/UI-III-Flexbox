@@ -64,3 +64,179 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	width: 1200px;
+	margin: auto; /* this helps the big monitor problem*/
+  }
+  
+  .container {
+	  	margin: 50px;
+		background-color: lightgrey;
+		padding: 10px;
+		/*border: 1px solid red;*/
+		display: flex;
+		justify-content: flex-end;
+
+	  }
+  header nav a {
+	  /* TB LR*/
+	  margin: 0 20px;
+
+	  /*border: 1px solid blue;*/
+	
+  }
+  header nav {
+	   
+	  margin-top: 35px;
+	
+  }
+  header .logo {
+	  /*margin-left: 760px;*/
+  }
+  .codesnippet {
+	/*border: 1px solid blue;*/
+	  margin-bottom: 40px;
+  
+  }
+  .cta h1{
+	  font-size: 70px;
+	  text-align: center;
+	  
+  }
+  .innovation-div{
+	  	width: 100%;
+		display: flex;
+		/*border: 1px solid red;*/
+		align-items: center;
+		justify-content: space-evenly;
+  }
+  .innovation-text{
+	  /*border: solid 1px blue;*/
+	  padding: 10px;
+	  height: 340px;
+  }
+ 
+  button{
+	  width: 130px;
+	  height: 40px;
+	  margin-left: 80px;
+	  margin-bottom: 20px;
+  }
+  .features{
+	  width: 49%;
+	  
+	  /*border: 2px solid red;*/
+  }
+  .about{
+	  width: 49%;
+	  
+	  /*border: 2px solid red;*/
+  }
+  .features-about-container{
+	  display:flex;
+	  justify-content: space-between;
+	  padding: 15px;
+  }
+  .services{
+	  width: 32%;
+	  
+	
+	  /*border: 2px solid red;*/
+  }
+  .product{
+	  width: 32%;
+	  /*border: 2px solid red;*/
+	  margin: 2px;
+  }
+  .vision{
+	  width: 32%;
+	 /* border: 2px solid red;*/
+  }
+  .middle-img{
+	  padding: 10px;
+	  width: 100%;
+  }
+  .below-img-info{
+	  display: flex;
+	  justify-content: space-between;
+	  padding: 15px;
+  }
+  footer{
+	display: flex;
+	justify-content: center;
+ 	margin-top: 100px;
+  }
+  .contact {
+	  text-align: left;
+  }
+  .contact p{
+	font-size: 15px;
+  }
+  address{
+	font-size: 15px;
+  }
+  .services-container{
+	  display: flex;
+	  flex-direction: column;
+	  align-items: flex-start;
+  }
+  .services-header-img{
+	  width: 100%;
+  }
+ .service-header-text{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20px;
+  }	
+  .service-para{
+	  padding:10px;
+	  margin-bottom: 20px;
+  }
+  .main-container{
+	  /*border: 1px solid red;*/
+	  padding: 10px;
+	  display: flex;
+	  flex-flow: row wrap;
+	  justify-content: space-around;
+
+  }
+  .child{
+	  border: 1px solid black;
+	  width: 400px;
+	  height: 285px;
+	  background-color: lightgray;
+	  padding: 15px;
+	  margin-bottom: 40px;
+  }
+ button{
+	margin-top: 90px;
+	margin-left: 0px;
+ }
+ .service-facts-container{
+	 padding: 10px;
+	 display: flex;
+	 justify-content: space-between;
+ }	  
+.child2{
+	/*border: 1px solid red;*/
+	margin-left: 70px;
+	width: 500px;
+}
+.box1{
+	padding: 15px;
+}
+ul{
+	margin-top: 20px;
+	list-style-type: disk;
+	list-style-position: inside;
+}
+.nav{
+	/*border: 1px solid red;*/
+	display:flex;
+	justify-content: space-between;
+}
+
+a{
+	margin: 40px;
+	color: gray;
+}
